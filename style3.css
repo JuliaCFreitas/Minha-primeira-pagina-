@@ -1,0 +1,63 @@
+                        body {
+                            background-color: burlywood;
+                        }
+                        
+                        .alert {
+                            background-color: #FAEBF8;
+                        }
+                        
+                        .navbar {
+                            background-color: white;
+                        }
+                        
+                        h1 {
+                            background-color: #FF9999;
+                            text-align: center;
+                            margin-top: 20px;
+                        }
+                        
+                        h4 {
+                            background-color: #FF9999;
+                            text-align: center;
+                        }
+                        
+                        .esquerdo {
+                            width: 46%;
+                            float: left;
+                            margin: 5px;
+                            text-align: center;
+                            max-width: 1200%;
+                        }
+                        
+                        .direito {
+                            float: right;
+                            width: 46%;
+                            text-align: center;
+                            width: 100%;
+                            max-width: 50%;
+                            margin-left: auto;
+                            margin-right: auto;
+                        }
+                        
+                        h3 {
+                            text-align: end;
+                        }
+                        
+                        @media screen and (min-width: 100px) and (max-width:700px) {
+                            .direito {
+                                width: 100%;
+                                float: none;
+                                margin: 5px;
+                                text-align: center;
+                                max-width: 1200%;
+                            }
+                            .esquerdo {
+                                float: none;
+                                width: 100%;
+                                text-align: center;
+                                width: 100%;
+                                max-width: 100%;
+                                margin-left: auto;
+                                margin-right: auto;
+                            }
+                        }
